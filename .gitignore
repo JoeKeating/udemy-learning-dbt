@@ -1,2 +1,3 @@
 ./data/
-
+.env
+/Users/jpk/Projects/udemy-learning-dbt/docker/postgres-docker/.env
