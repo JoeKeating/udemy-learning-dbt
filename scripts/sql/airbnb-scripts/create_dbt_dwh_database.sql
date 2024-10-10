@@ -8,3 +8,4 @@ CREATE DATABASE dbt_dwh
 -- DROP SCHEMA bronze;
 
 CREATE SCHEMA bronze AUTHORIZATION postgres;
+CREATE SCHEMA silver AUTHORIZATION postgres;
