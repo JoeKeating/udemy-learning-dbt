@@ -1,9 +1,9 @@
-CREATE TABLE "bronze.calendar" (
-	listing_id DECIMAL NOT NULL, 
-	date DATE NOT NULL, 
-	available BOOLEAN NOT NULL, 
-	price DECIMAL NOT NULL, 
-	adjusted_price BOOLEAN, 
-	minimum_nights DECIMAL, 
-	maximum_nights DECIMAL
+CREATE TABLE bronze.calendar (
+	listing_id VARCHAR NOT NULL, 
+	date VARCHAR NOT NULL, 
+	available VARCHAR NOT NULL, 
+	price VARCHAR NOT NULL, 
+	adjusted_price VARCHAR, 
+	minimum_nights VARCHAR, 
+	maximum_nights VARCHAR
 );
