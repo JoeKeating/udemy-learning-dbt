@@ -1,8 +1,8 @@
-CREATE TABLE bronze.reviews (
-	listing_id VARCHAR NOT NULL, 
-	id VARCHAR NOT NULL, 
-	date VARCHAR NOT NULL, 
-	reviewer_id VARCHAR NOT NULL, 
-	reviewer_name VARCHAR, 
-	comments VARCHAR
-);
+drop table if exists bronze.reviews;
+
+CREATE TABLE  bronze.reviews (
+	(listing_id varchar,
+	date varchar,
+	reviewer_name varchar,
+	comments varchar,
+	sentiment varchar);
