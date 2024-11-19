@@ -8,6 +8,6 @@ select  host_id,
         else host_name
         end,
 		is_superhost,
-        created_at,
-        updated_at
+        created_at::timestamp as created_at,
+		updated_at::timestamp as updated_at
 from 	src_hosts

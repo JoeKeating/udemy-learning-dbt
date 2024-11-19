@@ -9,6 +9,6 @@ select 	id::bigint as listing_id,
 		minimum_nights::integer,
 		host_id::integer,
 		price as price_str,
-		current_timestamp as create_at,
+		current_timestamp as created_at,
 		current_timestamp as updated_at
 from 	raw_listings
